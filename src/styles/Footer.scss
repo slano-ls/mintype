@@ -1,0 +1,58 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    color: var(--font-color);
+
+    .textButton {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--font-color);
+        transition: .25s;
+
+        &:hover {
+            color: var(--hl-color);
+        }
+
+        .text {
+            position: relative;
+            top: -1.5px;
+        }
+    }
+
+    .left-footer {
+        display: flex;
+        position: relative;
+
+        &>* {
+            margin-right: 1.5rem;
+        }
+
+        .contributors-group {
+            font-family: 'Noto Sans Thai', sans-serif;
+            position: absolute;
+            top: -100px;
+            right: -35px;
+            background-color: var(--fg-color);
+            padding: 8px 16px;
+            border-radius: 8px;
+
+            p {
+                color: var(--hl-color);
+            }
+        }
+    }
+}
+
+@media screen and (max-width: v.$small ) {
+    .footer {
+        margin-bottom: 0;
+
+        .left-footer {
+            .text {
+                display: none;
+            }
+        }
+    }
+}

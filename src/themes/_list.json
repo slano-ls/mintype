@@ -1,0 +1,72 @@
+[
+    {
+        "name": "mkbhd",
+        "bgColor": "#171717",
+        "mainColor": "#da0037"
+    },
+    {
+        "name": "mocha",
+        "bgColor": "#2d2424",
+        "mainColor": "#dc521c"
+    },
+    {
+        "name": "coral",
+        "bgColor": "#fdd2bf",
+        "mainColor": "#492f10"
+    },
+    {
+        "name": "ocean",
+        "bgColor": "#125d98",
+        "mainColor": "#f5a962"
+    },
+    {
+        "name": "azure",
+        "bgColor": "#383e56",
+        "mainColor": "#f69e7b"
+    },
+    {
+        "name": "forest",
+        "bgColor": "#334443",
+        "mainColor": "#c6ffc1"
+    },
+    {
+        "name": "rose-milk",
+        "bgColor": "#ffffff",
+        "mainColor": "#b33838"
+    },
+    {
+        "name": "amethyst",
+        "bgColor": "#e2caea",
+        "mainColor": "#ab395f"
+    },
+    {
+        "name": "violet-night",
+        "bgColor": "#101820",
+        "mainColor": "#cf6bdd"
+    },
+    {
+        "name": "aqua",
+        "bgColor": "#294851",
+        "mainColor": "#73c1d9"
+    },
+    {
+        "name": "halloween",
+        "bgColor": "#32313c",
+        "mainColor": "#e8880c"
+    },
+    {
+        "name": "paradise",
+        "bgColor": "#1d2f36",
+        "mainColor": "#15a6ca"
+    },
+    {
+        "name": "joker",
+        "bgColor": "#3a303e",
+        "mainColor": "#6fb24f"
+    },
+    {
+        "name": "pink-hades",
+        "bgColor": "#1a181a",
+        "mainColor": "#d1227b"
+    }
+]

@@ -1,0 +1,54 @@
+.theme-center {
+    background: rgba(0, 0, 0, .75);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    padding: 15rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    animation: fade-in .4s;
+
+    .theme-area {
+        background-color: var(--fg-color);
+        border-radius: 0.5rem;
+        width: 700px;
+        height: fit-content;
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 1.4rem;
+        transition: all .2s ease-in-out 0s;
+
+        .theme-button {
+            border-radius: 0.4rem;
+            padding: 1rem 0;
+            text-align: center;
+            font-size: .8rem;
+            background: #404040;
+            cursor: pointer;
+            transition: all .125s ease-in-out;
+
+            &:hover {
+                scale: 1.1;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: v.$medium) {
+    .theme-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .theme-area {
+            display: grid;
+            width: 60%;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}

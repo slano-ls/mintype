@@ -1,0 +1,65 @@
+.top {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+
+    @media screen and (min-width: v.$small) {
+        width: 100%;
+    }
+}
+
+.flex {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+
+    a {
+        text-decoration: none;
+        position: relative;
+        left: 35px;
+
+        .mascot > * {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            top: 8px;
+            left: -85px;
+            cursor: pointer; 
+        }
+    
+        .logo-text {
+            font-size: 42px;
+            font-weight: bold;
+            transition: 0.3s;
+            margin: 50px 0 25px;
+            cursor: pointer;
+            color: var(--font-color);
+        }
+    }
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+
+    & .button {
+        font-size: 35px;
+        margin: 0.5rem;
+        display: flex;
+        align-items: center;
+        transition: .15s;
+        color: var(--hl-color);                                             //highlight color
+        cursor: pointer;
+
+        &:hover {
+            color: var(--font-color);
+        }
+    }
+}

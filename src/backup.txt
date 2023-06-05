@@ -1,0 +1,81 @@
+.
+├── App.jsx
+├── backup.txt
+├── components
+│   ├── CommandLine.jsx
+│   ├── ContributorsMenu.jsx
+│   ├── Footer.jsx
+│   ├── Mascot.jsx
+│   ├── MascotLayer.jsx
+│   ├── Navbar.jsx
+│   ├── ResetButton.jsx
+│   ├── Result.jsx
+│   ├── Test.jsx
+│   ├── Theme.jsx
+│   ├── Timer.jsx
+│   ├── Tooltip.jsx
+│   └── resultMascot.jsx
+├── helpers
+│   ├── commandline-lists.js
+│   ├── config.js
+│   ├── initWords.js
+│   ├── recordTest.js
+│   ├── resetTest.js
+│   └── startTimer.js
+├── index.scss
+├── main.jsx
+├── pages
+│   ├── About.jsx
+│   └── Home.jsx
+├── public
+│   ├── favicon.ico
+│   ├── favicon.png
+│   ├── itcmtc.png
+│   ├── mascot-forest.png
+│   ├── mascot-mkbhd.png
+│   ├── mascot-violet-night.png
+│   ├── mascotBlush.png
+│   ├── mascotCStroke.png
+│   ├── mascotCStroke.svg
+│   ├── mascotColor.png
+│   ├── mascotColor.svg
+│   ├── mascotEyes.png
+│   ├── mascotEyes.svg
+│   ├── mascotEyesHL.png
+│   ├── mascotShadow.png
+│   ├── mascotShadow.svg
+│   ├── mascotTop.png
+│   └── resultMascot
+│       ├── rmAcc1.png
+│       ├── rmAcc1C.svg
+│       ├── rmCor1.png
+│       ├── rmCor1C.svg
+│       ├── rmErr1.png
+│       ├── rmErr1C.svg
+│       ├── rmWpm1.png
+│       └── rmWpm1C.svg
+├── store
+│   ├── actions.js
+│   ├── reducer.js
+│   └── store.js
+├── styles
+│   ├── About.scss
+│   ├── CommandLine.scss
+│   ├── Components.module.scss
+│   ├── Footer.scss
+│   ├── Navbar.scss
+│   ├── Result.scss
+│   ├── Test.scss
+│   ├── ThemePallet.scss
+│   ├── Timer.scss
+│   ├── _variables.scss
+│   └── scroll.scss
+├── themes
+│   ├── _list.json
+│   └── theme.scss
+├── utils
+│   └── misc.js
+└── wordlist
+    └── words.json
+
+11 directories, 68 files

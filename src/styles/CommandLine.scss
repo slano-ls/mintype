@@ -1,0 +1,103 @@
+.commandLineWrapper {
+    background: rgba(0, 0, 0, .75);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    padding: 15rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    animation: fade-in .4s;
+
+    .commandLine {
+        background-color: var(--bg-color);
+        border-radius: 0.5rem;
+        width: 450px;
+        height: fit-content;
+
+        .input-box {
+            display: flex;
+            align-items: center;
+
+            .search-icon {
+                margin: 1.5px 1rem 0;
+                color: var(--font-color);
+            }
+
+            .input {
+                border: none;
+                border-radius: 0.5rem;
+                color: var(--font-color);
+                background: var(--bg-color);
+                font-size: 1rem;
+                outline: none;
+                padding: 1rem 1rem 1rem 0;
+                width: 100%;
+            }
+        }
+
+        .suggestions {
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            overflow: auto;
+            max-height: calc(100vh - 75vh);
+
+            .cmdlist {
+                color: var(--font-color);
+                display: flex;
+                font-size: 1rem;
+                line-height: 1rem;
+                padding: 0.5rem 1rem;
+
+                &:last-child {
+                    border-radius: 0 0 0.5rem 0.5rem;
+                }
+
+                &.activeKeyboard {
+                    background: var(--hl-color);
+                    color: var(--font-color);
+                    cursor: pointer;
+                }
+                &.activeMouse {
+                    background: var(--hl-color);
+                    color: var(--font-color);
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    #commandInput {
+        background: var(--bg-color);
+        border-radius: 0.5rem;
+        width: 450px;
+
+        .input {
+            border: none;
+            border-radius: 0.5rem;
+            color: var(--hl-color);
+            background: var(--bg-color);
+            font-size: 1rem;
+            outline: none;
+            padding: 1rem;
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: v.$medium) {
+    .commandLineWrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .commandLine {
+            width: 60%;
+        }
+    }
+}

@@ -1,0 +1,67 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    transition: all 0.25s ease 0s;
+    animation: fade-in .4s;
+
+    .section {
+        margin-bottom: 3rem;
+        font-family: 'Noto Sans Thai', sans-serif;
+
+
+        .title {
+            color: var(--fg-color);
+            font-size: 2rem;
+            line-height: 2rem;
+            margin: 0 0 1rem;
+        }
+
+        h1 {
+            color: var(--hl-color);
+            font-size: 1.2rem;
+            line-height: 1.2rem;
+            font-weight: 500;
+            margin-bottom: .75rem;
+            display: flex;
+            justify-content: center;
+        }
+
+        p {
+            color: var(--font-color);
+            font-size: 1.2rem;
+        }
+
+        a {
+            color: var(--font-color);
+            text-decoration: none;
+            transition: .25s;
+
+            &:hover {
+                color: var(--hl-color);
+            }
+        }
+
+        .contributors {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+
+@media screen and (max-width: v.$small) {
+    .about {
+        margin-top: 30px;
+
+        .section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .contributors {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}
