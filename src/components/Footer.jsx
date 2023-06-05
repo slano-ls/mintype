@@ -47,7 +47,7 @@ function Footer() {
                             color: "var(--hl-color)",
                         }}
                     />
-                    <div className="text">github</div>
+                    <div className="text">Github</div>
                 </a>
                 <a onClick={handleMenu} className="textButton">
                     <RiBracesFill
@@ -56,7 +56,7 @@ function Footer() {
                             color: "var(--hl-color)",
                         }}
                     />
-                    <div className="text">contributors</div>
+                    <div className="text">Contributors</div>
                 </a>
                 {isMenu && (
                     <div className="contributors-group">
