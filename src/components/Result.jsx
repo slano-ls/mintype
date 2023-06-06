@@ -56,7 +56,7 @@ function Result() {
             console.log("testDiff : ",testDiff);
             console.log("testStart : ",testStart);
             console.log("testEnd : ", endTime);
-            
+
             dispatch(setTestEnd(endTime));
             setWpm(Math.round(((correctChars + spaces) * 60) / testDiff / 5));
         }
